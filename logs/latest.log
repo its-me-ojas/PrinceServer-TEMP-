@@ -1,5 +1,5 @@
-[23:59:19] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
-[23:59:19] [main/INFO]: Loading 42 mods:
+[00:11:42] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.16.5
+[00:11:42] [main/INFO]: Loading 42 mods:
 	- fabric-api 0.102.0+1.21
 	   |-- fabric-api-base 0.4.42+6573ed8cd1
 	   |-- fabric-api-lookup-api-v1 1.6.68+b5597344d1
@@ -54,27 +54,359 @@
 	- java 21
 	- jei 19.21.0.246
 	- minecraft 1.21
-[23:59:20] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/crestfallen/Minecraft/PrinceServer/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:59:20] [main/INFO]: Compatibility level set to JAVA_17
-[23:59:20] [main/INFO]: Compatibility level set to JAVA_21
-[23:59:20] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[23:59:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:59:32] [main/INFO]: Loaded 1290 recipes
-[23:59:33] [main/INFO]: Loaded 1399 advancements
-[23:59:33] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.134 ms
-[23:59:34] [Server thread/INFO]: Starting minecraft server version 1.21
-[23:59:34] [Server thread/INFO]: Loading properties
-[23:59:34] [Server thread/INFO]: Default game type: SURVIVAL
-[23:59:34] [Server thread/INFO]: Generating keypair
-[23:59:34] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:59:34] [Server thread/INFO]: Using epoll channel type
-[23:59:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[23:59:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[23:59:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[23:59:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[23:59:34] [Server thread/INFO]: Preparing level "world"
-[23:59:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:59:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[23:59:38] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[23:59:38] [Server thread/INFO]: Time elapsed: 899 ms
-[23:59:38] [Server thread/INFO]: Done (3.549s)! For help, type "help"
+[00:11:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/raksh/Documents/GitHub/PrinceServer-TEMP-/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:11:42] [main/INFO]: Compatibility level set to JAVA_17
+[00:11:42] [main/INFO]: Compatibility level set to JAVA_21
+[00:11:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:11:53] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:11:56] [main/INFO]: Loaded 1290 recipes
+[00:11:57] [main/INFO]: Loaded 1399 advancements
+[00:11:58] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 3.557 ms
+[00:11:58] [Server thread/INFO]: Starting minecraft server version 1.21
+[00:11:58] [Server thread/INFO]: Loading properties
+[00:11:58] [Server thread/INFO]: Default game type: SURVIVAL
+[00:11:58] [Server thread/INFO]: Generating keypair
+[00:11:58] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.base/java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.base/java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.base/java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:329) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:372) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:215) ~[?:?]
+	at java.base/sun.nio.cs.StreamDecoder.read(StreamDecoder.java:169) ~[?:?]
+	at java.base/java.io.InputStreamReader.read(InputStreamReader.java:188) ~[?:?]
+	at java.base/java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.base/java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.base/java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecraft.class_3176$1.run(class_3176.java:103) [server-intermediary.jar:?]
+[00:11:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:11:58] [Server thread/INFO]: Using default channel type
+[00:11:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:11:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:11:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:11:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:11:58] [Server thread/INFO]: Preparing level "world"
+[00:12:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:12:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[00:12:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[00:12:02] [Server thread/INFO]: Time elapsed: 772 ms
+[00:12:02] [Server thread/INFO]: Done (3.058s)! For help, type "help"
+[00:13:59] [Server thread/INFO]: com.mojang.authlib.GameProfile@2cae12db[id=100e5775-f9ac-3544-a56b-55cdd79363c2,name=Rad1108,properties={}] lost connection: Disconnected
+[00:14:04] [Server thread/INFO]: com.mojang.authlib.GameProfile@4be77b92[id=100e5775-f9ac-3544-a56b-55cdd79363c2,name=Rad1108,properties={}] lost connection: Disconnected
+[00:20:18] [Server thread/INFO]: Rad1108[/127.92.3.96:51601] logged in with entity id 5 at (-13.5, 91.0, 302.5)
+[00:20:18] [Server thread/INFO]: Rad1108 joined the game
+[00:20:27] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:20:27] [Server thread/INFO]: Rad1108 left the game
+[00:20:45] [Server thread/INFO]: whitehairguy[/127.139.218.78:51610] logged in with entity id 76 at (-13.5, 92.0, 304.5)
+[00:20:45] [Server thread/INFO]: whitehairguy joined the game
+[00:21:27] [Server thread/WARN]: whitehairguy moved too quickly! 2.3100443318986095,6.0,-14.324538436079536
+[00:21:38] [Server thread/WARN]: whitehairguy moved too quickly! 10.212915753582662,0.0,10.159198558245748
+[00:22:27] [Server thread/INFO]: whitehairguy has made the advancement [Stone Age]
+[00:22:40] [Server thread/INFO]: Rad1108[/127.92.3.96:51660] logged in with entity id 797 at (-13.5, 91.0, 302.5)
+[00:22:40] [Server thread/INFO]: Rad1108 joined the game
+[00:22:43] [Server thread/INFO]: whitehairguy has made the advancement [Getting an Upgrade]
+[00:22:55] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:23:00] [Server thread/INFO]: whitehairguy has made the advancement [Monster Hunter]
+[00:23:11] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:23:17] [Server thread/INFO]: whitehairguy was shot by Skeleton
+[00:23:25] [Server thread/INFO]: Rad1108 has made the advancement [Getting an Upgrade]
+[00:23:27] [Server thread/INFO]: Rad1108 was shot by Skeleton
+[00:23:39] [Server thread/INFO]: whitehairguy was shot by Skeleton
+[00:23:42] [Server thread/INFO]: Rad1108 was shot by Skeleton
+[00:23:54] [Server thread/INFO]: Rad1108 was shot by Skeleton
+[00:23:59] [Server thread/INFO]: whitehairguy was shot by Skeleton
+[00:24:05] [Server thread/INFO]: Rad1108 was shot by Skeleton
+[00:24:17] [Server thread/INFO]: Rad1108 has made the advancement [Monster Hunter]
+[00:24:18] [Server thread/INFO]: whitehairguy was shot by Skeleton
+[00:24:20] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:24:20] [Server thread/INFO]: Rad1108 left the game
+[00:24:25] [Server thread/INFO]: Rad1108[/127.0.0.1:51675] logged in with entity id 1365 at (-24.13282375281346, 84.0, 309.2933437842655)
+[00:24:25] [Server thread/INFO]: Rad1108 joined the game
+[00:24:37] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:24:38] [Server thread/WARN]: Rad1108 moved too quickly! 8.199999988079071,0.0,-12.199999988079071
+[00:24:38] [Server thread/WARN]: Rad1108 moved too quickly! 8.199999988079071,0.0,-12.199999988079071
+[00:24:52] [Server thread/INFO]: Rad1108 was shot by Skeleton
+[00:24:54] [Server thread/WARN]: Rad1108 moved too quickly! 15.898211308642516,-2.0,-22.40373756211477
+[00:24:54] [Server thread/WARN]: Rad1108 moved too quickly! 15.898211308642516,-2.0,-22.40373756211477
+[00:24:54] [Server thread/WARN]: Rad1108 moved too quickly! 15.898211308642516,-2.0,-22.40373756211477
+[00:25:01] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[00:25:01] [Server thread/INFO]: whitehairguy left the game
+[00:25:10] [Server thread/INFO]: whitehairguy[/127.139.218.78:51682] logged in with entity id 1675 at (-30.80155762447271, 91.0, 319.69999998807907)
+[00:25:10] [Server thread/INFO]: whitehairguy joined the game
+[00:25:24] [Server thread/INFO]: Rad1108 has made the advancement [Stone Age]
+[00:25:38] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:25:39] [Server thread/WARN]: Rad1108 moved too quickly! -24.961896049393847,-13.0,-18.20324998807905
+[00:25:39] [Server thread/WARN]: Rad1108 moved too quickly! -24.961896049393847,-13.0,-18.20324998807905
+[00:25:39] [Server thread/WARN]: Rad1108 moved too quickly! -24.961896049393847,-13.0,-18.20324998807905
+[00:25:55] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[00:25:55] [Server thread/INFO]: whitehairguy left the game
+[00:27:53] [Server thread/INFO]: whitehairguy[/127.139.218.78:51708] logged in with entity id 2886 at (12.603665834631647, 104.0, 315.6226158124885)
+[00:27:53] [Server thread/INFO]: whitehairguy joined the game
+[00:29:32] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:29:32] [Server thread/INFO]: whitehairguy left the game
+[00:29:37] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:29:37] [Server thread/INFO]: Rad1108 left the game
+[00:29:44] [Server thread/INFO]: whitehairguy[/127.139.218.78:51734] logged in with entity id 3237 at (12.603665834631647, 104.0, 315.6226158124885)
+[00:29:44] [Server thread/INFO]: whitehairguy joined the game
+[00:30:45] [Server thread/WARN]: whitehairguy moved too quickly! -0.972122039190225,7.0,7.137099493799326
+[00:31:17] [Server thread/WARN]: whitehairguy moved too quickly! -9.575159978399606,6.0,0.49601567420495485
+[00:31:29] [Server thread/WARN]: whitehairguy moved too quickly! 0.9885955916372247,-11.558953062305562,-1.5873013281587305
+[00:31:30] [Server thread/WARN]: whitehairguy moved too quickly! 5.579811991378978,-4.380318872101441,-8.959015253268944
+[00:31:41] [Server thread/INFO]: Rad1108[/127.0.0.1:51766] logged in with entity id 4345 at (31.601519124980474, 91.0, 356.4143981427602)
+[00:31:41] [Server thread/INFO]: Rad1108 joined the game
+[00:31:47] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:31:47] [Server thread/INFO]: Rad1108 left the game
+[00:32:39] [Server thread/INFO]: Rad1108[/127.0.0.1:51811] logged in with entity id 4503 at (31.601519124980474, 91.0, 356.4143981427602)
+[00:32:39] [Server thread/INFO]: Rad1108 joined the game
+[00:32:43] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:32:46] [Server thread/WARN]: Rad1108 moved too quickly! -43.80000001192093,1.0,-45.80000001192093
+[00:32:46] [Server thread/WARN]: Rad1108 moved too quickly! -43.80000001192093,1.0,-45.80000001192093
+[00:32:46] [Server thread/WARN]: Rad1108 moved too quickly! -43.80000001192093,1.0,-45.80000001192093
+[00:32:46] [Server thread/WARN]: Rad1108 moved too quickly! -43.80000001192093,1.0,-45.80000001192093
+[00:32:46] [Server thread/WARN]: Rad1108 moved too quickly! -43.80000001192093,1.0,-45.80000001192093
+[00:32:46] [Server thread/WARN]: Rad1108 moved too quickly! -43.80000001192093,1.0,-45.80000001192093
+[00:33:56] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:33:58] [Server thread/WARN]: Rad1108 moved too quickly! -35.19999998807907,-19.0,-5.800000011920929
+[00:35:04] [Server thread/WARN]: whitehairguy moved too quickly! -3.48385349048462,-10.038049907596005,-0.0023500157711282554
+[00:35:10] [Server thread/WARN]: whitehairguy moved too quickly! -11.773484040844792,0.0,2.3378934370898037
+[00:35:13] [Server thread/WARN]: whitehairguy moved too quickly! -8.320496230768782,0.0,6.977959061360934
+[00:35:30] [Server thread/WARN]: whitehairguy moved too quickly! 8.712829714997582,0.0,7.400500138400787
+[00:35:53] [Server thread/WARN]: whitehairguy moved too quickly! -10.202263993674293,-0.17675927506424216,-6.1740210797306645
+[00:36:38] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:36:56] [Server thread/WARN]: whitehairguy moved too quickly! 14.14113875532324,0.0,-2.6003626989913755
+[00:36:57] [Server thread/WARN]: whitehairguy moved too quickly! 11.911606386840823,3.0,-1.493277787891202
+[00:37:41] [Server thread/WARN]: Rad1108 moved too quickly! 202.19999998807907,11.0,-14.725934186654513
+[00:37:41] [Server thread/WARN]: Rad1108 moved too quickly! 202.19999998807907,11.0,-14.725934186654513
+[00:37:41] [Server thread/WARN]: Rad1108 moved too quickly! 202.19999998807907,11.0,-14.725934186654513
+[00:37:41] [Server thread/WARN]: Rad1108 moved too quickly! 202.19999998807907,11.0,-14.725934186654513
+[00:37:41] [Server thread/WARN]: Rad1108 moved too quickly! 202.19999998807907,11.0,-14.725934186654513
+[00:37:41] [Server thread/WARN]: Rad1108 moved too quickly! 202.19999998807907,11.0,-14.725934186654513
+[00:37:47] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:37:49] [Server thread/WARN]: Rad1108 moved too quickly! -0.5685482895433154,35.1038308764256,23.909254176986565
+[00:37:49] [Server thread/WARN]: Rad1108 moved too quickly! -0.5685482895433154,35.1038308764256,23.909254176986565
+[00:37:49] [Server thread/WARN]: Rad1108 moved too quickly! -0.5685482895433154,35.1038308764256,23.909254176986565
+[00:38:07] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:38:07] [Server thread/INFO]: Rad1108 left the game
+[00:38:52] [Server thread/WARN]: whitehairguy moved too quickly! -4.904232787773857,4.0,8.257440915382858
+[00:38:53] [Server thread/WARN]: whitehairguy moved too quickly! -4.904232787773858,4.0,8.257440915382858
+[00:38:54] [Server thread/WARN]: whitehairguy moved too quickly! -4.322874314642043,4.0,8.56870581155357
+[00:38:54] [Server thread/WARN]: whitehairguy moved too quickly! -3.0955314839822936,4.0,9.08137019078083
+[00:39:04] [Server thread/WARN]: whitehairguy moved too quickly! 4.388098187339109,0.0,-11.174241230992322
+[00:39:05] [Server thread/WARN]: whitehairguy moved too quickly! 0.5178125793660393,-11.19886200217772,-2.799447437054596
+[00:39:27] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:39:27] [Server thread/INFO]: whitehairguy left the game
+[00:40:21] [Server thread/INFO]: Rad1108[/127.0.0.1:52018] logged in with entity id 6677 at (-14.046581697322088, 92.0, 312.69999998807907)
+[00:40:21] [Server thread/INFO]: Rad1108 joined the game
+[00:40:25] [Server thread/INFO]: Rad1108 was slain by Zombie
+[00:40:31] [Server thread/WARN]: Rad1108 moved too quickly! -5.254229173418713,-5.0,-16.19999998807907
+[00:40:31] [Server thread/WARN]: Rad1108 moved too quickly! -5.254229173418713,-5.0,-16.19999998807907
+[00:40:31] [Server thread/WARN]: Rad1108 moved too quickly! -5.254229173418713,-5.0,-16.19999998807907
+[00:40:31] [Server thread/INFO]: whitehairguy[/127.139.218.78:52024] logged in with entity id 6883 at (-5.939564077747474, 94.0, 297.86031819701054)
+[00:40:31] [Server thread/INFO]: whitehairguy joined the game
+[00:40:44] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:41:01] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:41:02] [Server thread/WARN]: Rad1108 moved too quickly! -35.75162397120921,-14.0,6.096821929749353
+[00:41:02] [Server thread/WARN]: Rad1108 moved too quickly! -35.75162397120921,-14.0,6.096821929749353
+[00:41:02] [Server thread/WARN]: Rad1108 moved too quickly! -35.75162397120921,-14.0,6.096821929749353
+[00:41:15] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:41:18] [Server thread/WARN]: Rad1108 moved too quickly! 21.691693722409873,2.0,-18.8586524783081
+[00:41:18] [Server thread/WARN]: Rad1108 moved too quickly! 21.691693722409873,2.0,-18.8586524783081
+[00:41:18] [Server thread/WARN]: Rad1108 moved too quickly! 21.691693722409873,2.0,-18.8586524783081
+[00:42:27] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:42:29] [Server thread/WARN]: whitehairguy moved too quickly! -5.528917201730309,3.9051134371757428,-7.557361319459574
+[00:42:30] [Server thread/WARN]: Rad1108 moved too quickly! -154.21485910945972,33.426486206974495,-72.61651632342466
+[00:42:32] [Server thread/WARN]: whitehairguy moved too quickly! -8.796697978254954,6.0,-1.3404474102906079
+[00:43:39] [Server thread/WARN]: whitehairguy moved too quickly! -10.285286720628847,0.0,-6.1897242383819275
+[00:43:45] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:43:45] [Server thread/INFO]: Rad1108 left the game
+[00:43:46] [Server thread/WARN]: handleDisconnection() called twice
+[00:45:24] [Server thread/INFO]: Rad1108[/127.0.0.1:52091] logged in with entity id 8221 at (-210.54933698188265, 60.62863157108045, 304.3817473552505)
+[00:45:24] [Server thread/INFO]: Rad1108 joined the game
+[00:45:30] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:31] [Server thread/WARN]: Rad1108 moved too quickly! 190.8445272177132,30.020786713127087,-3.205349138962788
+[00:45:38] [Server thread/WARN]: whitehairguy moved too quickly! 14.286393741481874,6.0,-1.8525135889233297
+[00:45:42] [Server thread/WARN]: whitehairguy moved too quickly! 10.602269878558502,5.0,-0.9173951661524598
+[00:46:09] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:46:37] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:46:54] [Server thread/WARN]: Rad1108 moved too quickly! -13.199999988079071,0.0,7.800000011920929
+[00:46:54] [Server thread/WARN]: Rad1108 moved too quickly! -13.199999988079071,0.0,7.800000011920929
+[00:47:02] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:47:07] [Server thread/WARN]: Rad1108 moved too quickly! 15.658917430061067,10.0,13.334978965011032
+[00:48:00] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[00:48:00] [Server thread/INFO]: Rad1108 left the game
+[00:48:39] [Server thread/INFO]: BlacViz[/127.107.148.249:52126] logged in with entity id 8848 at (-11.5, 94.0, 306.5)
+[00:48:39] [Server thread/INFO]: BlacViz joined the game
+[00:48:43] [Server thread/INFO]: Rad1108[/127.0.0.1:52131] logged in with entity id 8864 at (-16.8744933722376, 94.0, 326.1314287095584)
+[00:48:43] [Server thread/INFO]: Rad1108 joined the game
+[00:48:45] [Server thread/INFO]: BlacViz was slain by whitehairguy
+[00:48:54] [Server thread/INFO]: Rad1108 was slain by whitehairguy
+[00:48:55] [Server thread/WARN]: Rad1108 moved too quickly! 10.800000011920929,-1.0,-1.4108235999627823
+[00:49:13] [Server thread/INFO]: BlacViz was slain by whitehairguy
+[00:50:47] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[00:50:47] [Server thread/INFO]: whitehairguy left the game
+[00:52:22] [Server thread/INFO]: whitehairguy[/127.139.218.78:52160] logged in with entity id 9565 at (46.71473074999896, 93.0, 357.2202735479752)
+[00:52:22] [Server thread/INFO]: whitehairguy joined the game
+[00:52:41] [Server thread/INFO]: [Not Secure] <whitehairguy> skin?
+[00:52:47] [Server thread/INFO]: [Not Secure] <Rad1108> nahi dikh rahi
+[00:57:30] [Server thread/WARN]: whitehairguy moved too quickly! 7.232295876891893,-1.2046003784434305,7.18007151402702
+[00:58:38] [Server thread/INFO]: Rad1108 has made the advancement [Sweet Dreams]
+[00:58:41] [Server thread/INFO]: whitehairguy lost connection: Disconnected
+[00:58:41] [Server thread/INFO]: whitehairguy left the game
+[00:58:53] [Server thread/INFO]: BlacViz lost connection: Disconnected
+[00:58:53] [Server thread/INFO]: BlacViz left the game
+[00:58:59] [Server thread/INFO]: whitehairguy[/127.139.218.78:52206] logged in with entity id 10589 at (10.692531387852169, 111.0, 409.3976754526881)
+[00:58:59] [Server thread/INFO]: whitehairguy joined the game
+[00:59:00] [Server thread/INFO]: BlacViz[/127.51.60.223:52208] logged in with entity id 10620 at (7.405214866132722, 111.0, 408.2776914054413)
+[00:59:00] [Server thread/INFO]: BlacViz joined the game
+[00:59:40] [Server thread/WARN]: whitehairguy moved too quickly! -7.363175135469678,7.0,6.164279217222429
+[01:00:26] [Server thread/INFO]: whitehairguy has made the advancement [Acquire Hardware]
+[01:01:21] [Server thread/INFO]: whitehairguy has made the advancement [Suit Up]
+[01:02:59] [Server thread/WARN]: whitehairguy moved too quickly! -14.19708418515712,0.0,2.340270435219452
+[01:03:06] [Server thread/WARN]: whitehairguy moved too quickly! -13.08194755871967,1.0,5.984899614006679
+[01:03:06] [Server thread/WARN]: whitehairguy moved too quickly! -13.169565832110202,6.0,5.838422461977416
+[01:03:50] [Server thread/INFO]: Rad1108 has made the advancement [Acquire Hardware]
+[01:04:28] [Server thread/INFO]: BlacViz has made the advancement [Stone Age]
+[01:04:38] [Server thread/INFO]: Rad1108 has made the advancement [Isn't It Iron Pick]
+[01:04:42] [Server thread/INFO]: whitehairguy has made the advancement [Isn't It Iron Pick]
+[01:05:19] [Server thread/INFO]: Rad1108 has made the advancement [Suit Up]
+[01:06:10] [Server thread/INFO]: BlacViz has made the advancement [Getting an Upgrade]
+[01:08:15] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[01:08:15] [Server thread/INFO]: whitehairguy left the game
+[01:08:31] [Server thread/INFO]: BlacViz lost connection: Timed out
+[01:08:31] [Server thread/INFO]: BlacViz left the game
+[01:09:05] [Server thread/INFO]: whitehairguy[/127.139.218.78:52261] logged in with entity id 12586 at (-82.43484210577346, 62.0, 450.30000001192093)
+[01:09:05] [Server thread/INFO]: whitehairguy joined the game
+[01:09:35] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[01:09:35] [Server thread/INFO]: whitehairguy left the game
+[01:09:40] [Server thread/INFO]: BlacViz[/127.51.60.223:52263] logged in with entity id 12719 at (24.894585867230898, 103.0, 397.31006418416837)
+[01:09:40] [Server thread/INFO]: BlacViz joined the game
+[01:10:10] [Server thread/INFO]: BlacViz lost connection: Timed out
+[01:10:10] [Server thread/INFO]: BlacViz left the game
+[01:10:21] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[01:10:21] [Server thread/INFO]: Rad1108 left the game
+[01:11:46] [Server thread/INFO]: Rad1108[/127.0.0.1:52319] logged in with entity id 12840 at (-20.691167196998794, 134.0, 460.30000001192093)
+[01:11:46] [Server thread/INFO]: Rad1108 joined the game
+[01:11:53] [Server thread/INFO]: whitehairguy[/127.139.218.78:52325] logged in with entity id 13017 at (-82.43484210577346, 62.0, 450.30000001192093)
+[01:11:53] [Server thread/INFO]: whitehairguy joined the game
+[01:11:57] [Server thread/INFO]: BlacViz[/127.107.148.249:52327] logged in with entity id 13074 at (24.894585867230898, 103.0, 397.31006418416837)
+[01:11:57] [Server thread/INFO]: BlacViz joined the game
+[01:12:46] [Server thread/INFO]: BlacViz was blown up by Creeper
+[01:13:05] [Server thread/INFO]: whitehairguy has made the advancement [Diamonds!]
+[01:15:38] [Server thread/INFO]: [Not Secure] <Rad1108> prashant bhaiya apki awaz nahi aa rahi
+[01:17:45] [Server thread/INFO]: [Not Secure] <BlacViz> helllo pookies
+[01:17:58] [Server thread/INFO]: whitehairguy has made the advancement [Cover Me with Diamonds]
+[01:18:59] [Server thread/WARN]: whitehairguy moved too quickly! 8.904012313238674,3.0,-7.588528467574861
+[01:19:00] [Server thread/INFO]: whitehairguy has made the advancement [Sneak 100]
+[01:19:01] [Server thread/WARN]: whitehairguy moved too quickly! 10.22908941586146,0.0,-6.282971701870338
+[01:19:56] [Server thread/WARN]: whitehairguy moved too quickly! 6.269001003899817,0.0,8.875172082769893
+[01:20:13] [Server thread/WARN]: whitehairguy moved too quickly! -3.690355176748497,0.0,11.36580027524019
+[01:20:13] [Server thread/WARN]: whitehairguy moved too quickly! -7.596109646423145,4.0,5.8755117614907135
+[01:20:27] [Server thread/WARN]: whitehairguy moved too quickly! -4.343468382003955,3.0,8.565001962033989
+[01:21:17] [Server thread/WARN]: whitehairguy moved too quickly! -12.002037215951974,0.0,0.15168409607235844
+[01:21:39] [Server thread/INFO]: Rad1108 has made the advancement [Not Today, Thank You]
+[01:22:30] [Server thread/WARN]: whitehairguy moved too quickly! 13.890829453501809,0.0,3.481942989288882
+[01:22:53] [Server thread/WARN]: whitehairguy moved too quickly! 10.959675701340373,0.0,-4.892816627967875
+[01:23:20] [Server thread/WARN]: whitehairguy moved too quickly! 8.85593167820366,4.0,-3.6331620357738075
+[01:24:20] [Server thread/WARN]: whitehairguy moved too quickly! 0.5909918306739996,4.0,-9.58579339391639
+[01:24:23] [Server thread/WARN]: whitehairguy moved too quickly! 11.473471657328531,0.0,-3.49025295693275
+[01:24:24] [Server thread/WARN]: whitehairguy moved too quickly! 9.051550488425278,4.0,-3.2103363648977847
+[01:25:53] [Server thread/WARN]: whitehairguy moved too quickly! 11.849967152402016,0.0,-1.8955076025207518
+[01:26:41] [Server thread/INFO]: Rad1108 has made the advancement [Sneak 100]
+[01:27:18] [Server thread/INFO]: BlacViz fell from a high place
+[01:27:33] [Server thread/INFO]: Rad1108 has made the advancement [Diamonds!]
+[01:28:57] [Server thread/INFO]: Rad1108 has made the advancement [Cover Me with Diamonds]
+[01:31:12] [Server thread/INFO]: BlacViz fell from a high place
+[01:34:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-143, y=-35, z=581} class_2338{x=-144, y=-35, z=582}
+[01:34:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-143, y=-35, z=581} class_2338{x=-144, y=-35, z=582}
+[01:34:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-143, y=-35, z=581} class_2338{x=-144, y=-35, z=582}
+[01:37:06] [Server thread/INFO]: Teleported BlacViz to whitehairguy
+[01:39:14] [Server thread/INFO]: BlacViz tried to swim in lava
+[01:39:52] [Server thread/INFO]: Teleported BlacViz to whitehairguy
+[01:42:10] [Server thread/INFO]: Rad1108 has made the advancement [Ice Bucket Challenge]
+[01:42:18] [Server thread/INFO]: whitehairguy has made the advancement [Ice Bucket Challenge]
+[01:42:32] [Server thread/INFO]: whitehairguy has made the advancement [Hot Stuff]
+[01:43:07] [Server thread/INFO]: BlacViz has made the advancement [Suit Up]
+[01:43:11] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[01:43:11] [Server thread/INFO]: whitehairguy left the game
+[01:43:34] [Server thread/INFO]: whitehairguy[/127.139.218.78:52508] logged in with entity id 22133 at (-136.6814361662123, -54.0, 544.1739489424377)
+[01:43:34] [Server thread/INFO]: whitehairguy joined the game
+[01:45:20] [Server thread/INFO]: Rad1108 has made the advancement [Hot Stuff]
+[01:47:25] [Server thread/INFO]: BlacViz has made the advancement [We Need to Go Deeper]
+[01:47:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3536ms or 70 ticks behind
+[01:47:34] [Server thread/INFO]: Rad1108 has made the advancement [We Need to Go Deeper]
+[01:47:49] [Server thread/INFO]: whitehairguy has made the advancement [We Need to Go Deeper]
+[01:49:49] [Server thread/INFO]: Rad1108 was slain by Piglin
+[01:50:05] [Server thread/INFO]: Rad1108 was slain by Piglin
+[01:50:06] [Server thread/INFO]: BlacViz was slain by Piglin
+[01:50:42] [Server thread/INFO]: BlacViz has made the advancement [Isn't It Iron Pick]
+[01:51:48] [Server thread/WARN]: whitehairguy moved too quickly! 9.53664102177666,2.0,7.600502001797736
+[01:51:59] [Server thread/WARN]: whitehairguy moved too quickly! -7.685565748163725,0.0,9.221930142312338
+[01:52:00] [Server thread/WARN]: whitehairguy moved too quickly! -6.986719282076052,4.0,6.587072759733303
+[01:52:33] [Server thread/INFO]: BlacViz has made the advancement [Monster Hunter]
+[01:55:57] [Server thread/WARN]: whitehairguy moved wrongly!
+[01:56:14] [Server thread/INFO]: whitehairguy has made the advancement [Not Today, Thank You]
+[01:56:46] [Server thread/INFO]: BlacViz lost connection: Timed out
+[01:56:46] [Server thread/INFO]: BlacViz left the game
+[01:56:51] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[01:56:51] [Server thread/INFO]: whitehairguy left the game
+[01:57:27] [Server thread/INFO]: BlacViz[/127.51.60.223:52592] logged in with entity id 24853 at (37.0520183537741, 42.25220334025373, 52.927904136387724)
+[01:57:27] [Server thread/INFO]: BlacViz joined the game
+[01:58:19] [Server thread/INFO]: whitehairguy[/127.139.218.78:52606] logged in with entity id 24920 at (40.68839384239105, 42.0, 53.494373311346216)
+[01:58:19] [Server thread/INFO]: whitehairguy joined the game
+[01:58:32] [Server thread/INFO]: Rad1108 was slain by Piglin
+[01:58:40] [Server thread/INFO]: BlacViz was slain by Piglin
+[01:58:42] [Server thread/INFO]: whitehairguy was slain by Piglin
+[01:58:49] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[01:58:49] [Server thread/INFO]: whitehairguy left the game
+[01:59:04] [Server thread/INFO]: whitehairguy[/127.139.218.78:52610] logged in with entity id 25537 at (40.68839384239105, 42.0, 53.494373311346216)
+[01:59:04] [Server thread/INFO]: whitehairguy joined the game
+[01:59:19] [Server thread/INFO]: Rad1108 was slain by Piglin
+[01:59:49] [Server thread/INFO]: whitehairguy lost connection: Timed out
+[01:59:49] [Server thread/INFO]: whitehairguy left the game
+[01:59:59] [Server thread/INFO]: Rad1108 was slain by Piglin
+[02:00:30] [Server thread/INFO]: BlacViz lost connection: Disconnected
+[02:00:30] [Server thread/INFO]: BlacViz left the game
+[02:02:10] [Server thread/INFO]: Rad1108 lost connection: Disconnected
+[02:02:10] [Server thread/INFO]: Rad1108 left the game
+[02:02:29] [Server thread/INFO]: Stopping server
+[02:02:29] [Server thread/INFO]: Saving players
+[02:02:29] [Server thread/INFO]: Saving worlds
+[02:02:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02:02:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02:02:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02:02:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02:02:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02:02:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02:02:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
